@@ -138,7 +138,7 @@ for (const [key, value] of urlParams){
 }
 if(mUrl == undefined)
 {
-  mUrl = 'images.json';
+  mUrl = 'image.json';
 }
 
 fetchJSON();
