@@ -43,12 +43,12 @@ function swapPhoto() {
     mCurrentIndex = mImages.length-1;
   }
 
-  document.getElmentById('photo').src = mImages[mCurrentIndex].img;
-  var loc = document.getElmentsByClassName('location');
+  document.getElementById('photo').src = mImages[mCurrentIndex].img;
+  var loc = document.getElementsByClassName('location');
   loc[0].innerHTML = "location:" + mImages[mcurrentIndex].location;
-  var des = document.getElmentsByClassName('description');
+  var des = document.getElementsByClassName('description');
   des[0].innerHTML = "DEscription: " + mImages[mCurrentIndes].desriptions;
-  var dt = document.getElmentsByClassName('date');
+  var dt = document.getElementsByClassName('date');
   dt[0].innerHTML = "Date:" + mImages[mCurrentIndex].date;
 
   mLastFrameTime = 0;
