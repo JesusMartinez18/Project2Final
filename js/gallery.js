@@ -47,7 +47,7 @@ function swapPhoto() {
   var loc = document.getElementsByClassName('location');
   loc[0].innerHTML = "location:" + mImages[mcurrentIndex].location;
   var des = document.getElementsByClassName('description');
-  des[0].innerHTML = "DEscription: " + mImages[mCurrentIndes].desriptions;
+  des[0].innerHTML = "Description: " + mImages[mCurrentIndes].desriptions;
   var dt = document.getElementsByClassName('date');
   dt[0].innerHTML = "Date:" + mImages[mCurrentIndex].date;
 
