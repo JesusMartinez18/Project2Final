@@ -84,7 +84,7 @@ var mJson;
 
 // URL for the JSON to load by default
 // Some options for you are: images.json, images.short.json; you will need to create your own extra.json later
-var mUrl = 'images.json'; 
+var mUrl = 'image.json'; 
 
 function fetchJSON()
 {
@@ -138,7 +138,7 @@ for (const [key, value] of urlParams){
 }
 if(mUrl == undefined)
 {
-  mUrl = 'imagesPLZ.json';
+  mUrl = 'image.json';
 }
 
 fetchJSON();
